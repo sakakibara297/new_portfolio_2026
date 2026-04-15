@@ -306,7 +306,17 @@ h4{
 }
 
 
-
+#back-btn { 
+  display: none;
+  padding: 20px 10px;
+  background-color: #f96e29;
+  color: #000;
+  text-decoration: none;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+ }
 
 /* ------------------------------------- */
 
@@ -556,6 +566,8 @@ background:#333;
   .voice_next {
     right: 5px;
   }
+ 
+
 }
 
 
