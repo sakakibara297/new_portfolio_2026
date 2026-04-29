@@ -62,6 +62,15 @@ img {
   color: #333;
 }
 
+@keyframes blink {
+  50% { opacity: 0; }
+}
+.blink {
+  color: red;
+  font-weight: bold;
+  animation: blink 1s step-start infinite;
+}
+
 .lead {
   font-size: 16px;
   line-height: 1.8;
