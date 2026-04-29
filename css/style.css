@@ -62,6 +62,15 @@ img {
   color: #333;
 }
 
+@keyframes blink {
+  50% { opacity: 0; }
+}
+.blink {
+  color: red;
+  font-weight: bold;
+  animation: blink 1s step-start infinite;
+}
+
 .lead {
   font-size: 16px;
   line-height: 1.8;
@@ -173,10 +182,13 @@ img {
   color: #333;
 }
 
+/*
 .works-item:hover {
-  opacity: .9;
-}
+  opacity: 0.5;
+  transition:0.3s;
 
+}
+*/
 .works-item:nth-of-type(3n) {
   margin-right: 0;
 }
@@ -189,7 +201,7 @@ img {
 .works-img img:hover{
 	top:-10px;
 	transition:0.3s;
-  filter: brightness(1.1);
+filter: brightness(1.1);
 }
 
 .works-name {
