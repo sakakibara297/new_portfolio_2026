@@ -68,7 +68,7 @@ img {
 .blink {
   color: red;
   font-weight: bold;
-  animation: blink 1s step-start infinite;
+  animation: blink 3s step-start infinite;
 }
 
 .lead {
